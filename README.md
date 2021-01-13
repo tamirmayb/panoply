@@ -15,6 +15,7 @@ scheduler.schedule(
 Done!
 
 Feel free to run all the tests and check the results.
+
 ###Other features:
 * Jobs should be created using FixedDelayIntervalsEnum predefined periods (every 1,2,6,12 hours) , however, this is not mandatory in order to add more flexibility.
 * A Jobs can be scheduled to run once using executeOnce method.
