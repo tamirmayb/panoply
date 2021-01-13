@@ -1,9 +1,11 @@
-package com.panoply.scheduler.stats;
+package com.panoply.scheduler.report;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.ToString;
 
 @Getter
+@ToString
 @AllArgsConstructor(staticName = "of")
 public class ThreadPoolStats {
 

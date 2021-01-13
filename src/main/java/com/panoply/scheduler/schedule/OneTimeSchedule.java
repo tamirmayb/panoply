@@ -1,11 +1,11 @@
 package com.panoply.scheduler.schedule;
 
-public class OnceSchedule implements Schedule {
+public class OneTimeSchedule implements Schedule {
 
 	private final Schedule baseSchedule;
 	private Integer initialExecutionsCount;
 
-	public OnceSchedule(Schedule baseSchedule) {
+	public OneTimeSchedule(Schedule baseSchedule) {
 		this.baseSchedule = baseSchedule;
 		this.initialExecutionsCount = null;
 	}
