@@ -3,6 +3,8 @@
 
 This is a basic job system that can schedule and execute jobs.
 
+Run ```mvn clean install``` before stating...
+
 How to schedule a job:
 ```java
 Scheduler scheduler = new Scheduler();
